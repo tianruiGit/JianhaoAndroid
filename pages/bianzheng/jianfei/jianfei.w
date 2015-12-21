@@ -18,7 +18,7 @@
           </a> 
         </div>  
         <div class="x-titlebar-title"> 
-          <img style="width:50px;" src="$UI/jhApp/images/common/title.png"/> 
+          <img style="width:50px;" src="$UI/JianhaoAndroid/images/bianzheng/common/title.png"/> 
         </div>  
         <div class="x-titlebar-right reverse"/> 
       </div> 
