@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cbuUjIf" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cbuUjIf" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cbuUjIf" class="cbuUjIf"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar cbuUjIf" xid="qudou" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbuUjIf"> 
+    <div class="x-panel-top cbuUjIf" xid="qudouTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbuUjIf"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cbuUjIf" style="background-color:#fe6b5b;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cbuUjIf"> 
+        <div class="x-titlebar-left cbuUjIf" __cid="cbuUjIf"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cbuUjIf" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cbuUjIf"> 
+            <i class="icon-chevron-left cbuUjIf" __cid="cbuUjIf"/>  
+            <span __cid="cbuUjIf" class="cbuUjIf"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cbuUjIf" __cid="cbuUjIf"> 
+          <img style="width:50px;" src="$model/UI2/jhApp/images/common/title.png" __cid="cbuUjIf" class="cbuUjIf"/> 
+        </div>  
+        <div class="x-titlebar-right  cbuUjIf" __cid="cbuUjIf">
+          <div class="empty cbuUjIf" __cid="cbuUjIf"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cbuUjIf" xid="qudouContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbuUjIf"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar cbuUjIf" xid="qudouSolution" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbuUjIf"> 
+        <div class="x-panel-top cbuUjIf" xid="qudouSolutionTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:50}" __cid="cbuUjIf"> 
+          <table id="jianfeiTip" style="width:100%;height:50px;background-color:#fe6b5b;" __cid="cbuUjIf" class="cbuUjIf"> 
+            <tr style="height:20px;" __cid="cbuUjIf" class="cbuUjIf"> 
+              <td align="left" style="padding-left:10px;font-size:13px;color:white;" __cid="cbuUjIf" class="cbuUjIf">检测第一步,认真选择才有效呦！</td> 
+            </tr>  
+            <tr style="height:30px;" __cid="cbuUjIf" class="cbuUjIf"> 
+              <td align="center" __cid="cbuUjIf" class="cbuUjIf"> 
+                <img style="width:200px;" src="$model/UI2/jhApp/images/step/step1.png" __cid="cbuUjIf" class="cbuUjIf"/> 
+              </td> 
+            </tr> 
+          </table> 
+        </div>  
+        <div class="x-panel-content cbuUjIf" xid="qudouSolutionContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbuUjIf"> 
+          <table style="width:100%;" __cid="cbuUjIf" class="cbuUjIf"> 
+            <tr __cid="cbuUjIf" class="cbuUjIf"> 
+              <td align="center" style="height:80px;font-size:14px;color:#fe6b5b;" __cid="cbuUjIf" class="cbuUjIf">哪个位置最容易起痘痘?</td> 
+            </tr>  
+            <tr __cid="cbuUjIf" class="cbuUjIf"> 
+              <td align="center" __cid="cbuUjIf" class="cbuUjIf"> 
+                <div style="width:200px;" __cid="cbuUjIf" class="cbuUjIf"> 
+                  <img style="float:left;width:100%;" src="$model/UI2/jhApp/images/bianzheng/qdqy.png" __cid="cbuUjIf" class="cbuUjIf"/>  
+                  <input id="qudouRadio1" style="float:right;margin-top:-141px;margin-right:-12px;" type="radio" value="" name="select" xid="radio1" __cid="cbuUjIf" class="cbuUjIf"/>  
+                  <input id="qudouRadio2" style="float:right;margin-top:-108px;margin-right:-12px;" type="radio" value="" name="select" xid="radio1" __cid="cbuUjIf" class="cbuUjIf"/>  
+                  <input id="qudouRadio3" style="float:right;margin-top:-77px;margin-right:-12px;" type="radio" value="" name="select" xid="radio1" __cid="cbuUjIf" class="cbuUjIf"/>  
+                  <input id="qudouRadio4" style="float:right;margin-top:-44px;margin-right:-12px;" type="radio" value="" name="select" xid="radio1" __cid="cbuUjIf" class="cbuUjIf"/> 
+                </div> 
+              </td> 
+            </tr>  
+            <tr __cid="cbuUjIf" class="cbuUjIf"> 
+              <td align="center" style="height:100px;" __cid="cbuUjIf" class="cbuUjIf"> 
+                <button bind-click="nextClick" style="width:80px;height:30px;border-radius:15px;background-color:#fe6b5b;border:0px;color:white;font-size:14px;" __cid="cbuUjIf" class="cbuUjIf">下一步</button> 
+              </td> 
+            </tr> 
+          </table> 
+        </div>  
+        <style __cid="cbuUjIf" class="cbuUjIf">.x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-top {height: 50px;}.x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-content { top: 50px;bottom: nullpx;}.x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-top {height: 70px;}.iosstatusbar .x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-content { top: 70px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-top {height: 50px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5ea1ea92d8ef4591bd7a249ce1a45c40-iosstatusbar &gt;.x-panel-content {top: 50px;}</style>
+      </div> 
+    </div>  
+    <style __cid="cbuUjIf" class="cbuUjIf">.x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc3eaf8429443432aabef8eff8f44ca7b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>

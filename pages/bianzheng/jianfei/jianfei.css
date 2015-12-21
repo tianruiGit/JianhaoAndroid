@@ -1,0 +1,88 @@
+.typeItem {
+	height: 20%;
+	border-bottom: 8px solid #f0f0f0;
+}
+
+#jianfeiTipTable {
+	width: 100%;
+	height: 90px;
+	background-color: #fe6b5b;
+	border:0px;
+	margin-top:0px;
+}
+
+#jianfeiTip {
+	padding-left: 10px;
+	font-size: 13px;
+	color: white;
+}
+
+#jianfeiTipType {
+	height: 40px;
+	background-color: #f0f0f0;
+	font-size: 14px;
+	color: #fe6b5b;
+}
+
+#jianfeiType {
+	width: 100%;
+	background-color: white;
+	border-left: 8px solid #f0f0f0;
+	border-right: 8px solid #f0f0f0;
+}
+
+.jianfeiTypeLeft {
+	width: 80px;
+}
+
+.jianfeiTypeIcon {
+	width: 60px;
+	height: 60px;
+}
+
+.jianfeiTypeCenter1 {
+	float: left;
+	width: 100%;
+	height: 25px;
+}
+
+.jianfeiTypeCenter2 {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	width: 100%;
+}
+
+.jianfeiTypeName {
+	float: left;
+	font-size: 15px;
+}
+
+.jianfeiTypeRight {
+	width: 50px;
+}
+
+.jianfeiTypeProgressDiv {
+	float: left;
+	height: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 120px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+}
+
+.jianfeiTypeProgress {
+	float: left;
+	width: 30px;
+	height: 10px;
+	background-color: #fe6b5b;
+	border-radius: 5px;
+}
+
+.jianfeiTypeProgressValue {
+	float: right;
+	margin-top: 3px;
+	font-size: 13px;
+	color: #999;
+}

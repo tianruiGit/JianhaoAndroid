@@ -1,0 +1,88 @@
+.typeItem {
+	height: 20%;
+	border-bottom: 8px solid #f0f0f0;
+}
+
+#shimianTipTable {
+	width: 100%;
+	height: 90px;
+	background-color: #fe6b5b;
+	border:0px;
+	margin-top:0px;
+}
+
+#shimianTip {
+	padding-left: 10px;
+	font-size: 13px;
+	color: white;
+}
+
+#shimianTipType {
+	height: 40px;
+	background-color: #f0f0f0;
+	font-size: 14px;
+	color: #fe6b5b;
+}
+
+#shimianType {
+	width: 100%;
+	background-color: white;
+	border-left: 8px solid #f0f0f0;
+	border-right: 8px solid #f0f0f0;
+}
+
+.shimianTypeLeft {
+	width: 80px;
+}
+
+.shimianTypeIcon {
+	width: 60px;
+	height: 60px;
+}
+
+.shimianTypeCenter1 {
+	float: left;
+	width: 100%;
+	height: 25px;
+}
+
+.shimianTypeCenter2 {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	width: 100%;
+}
+
+.shimianTypeName {
+	float: left;
+	font-size: 15px;
+}
+
+.shimianTypeRight {
+	width: 50px;
+}
+
+.shimianTypeProgressDiv {
+	float: left;
+	height: 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	width: 120px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+}
+
+.shimianTypeProgress {
+	float: left;
+	width: 30px;
+	height: 10px;
+	background-color: #fe6b5b;
+	border-radius: 5px;
+}
+
+.shimianTypeProgressValue {
+	float: right;
+	margin-top: 3px;
+	font-size: 13px;
+	color: #999;
+}

@@ -1,0 +1,70 @@
+.menu-icon {
+	width: 26px;
+}
+
+#bianzhengGuanggao {
+	float: left;
+	height: 150px;
+	width: 100%;
+}
+
+#kinMaxShow {
+	visibility: hidden;
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	display: none;
+}
+
+#bianzhengTable {
+	float: left;
+	width: 100%;
+}
+
+.bzLeft {
+	background-color: white;
+	width: 50%;
+	border-top: 10px solid #f0f0f0;
+	border-left: 10px solid #f0f0f0;
+	border-right: 10px solid #f0f0f0;
+	height: 25%;
+	border-radius: 13px;
+}
+
+.bzRight {
+	background-color: white;
+	width: 50%;
+	border-top: 10px solid #f0f0f0;
+	border-left: 10px solid #f0f0f0;
+	height: 25%;
+	border-right: 10px solid #f0f0f0;
+	border-radius: 3px;
+}
+
+.bzIcon {
+	float: left;
+	width: 100%;
+}
+
+.bzState {
+	float: right;
+	height: 50px;
+	display: none;
+}
+
+.bzCenter {
+	width: 100%;
+	height: 25%;
+	background-color: white;
+	border-top: 17px solid #f0f0f0;
+	border-left: 10px solid #f0f0f0;
+	border-right: 10px solid #f0f0f0;
+	border-bottom: 10px solid #f0f0f0;
+	border-radius: 3px;
+}
+
+.bzCenterTag {
+	margin-top: -14px;
+	width: 200px;
+	height: 14px;
+}

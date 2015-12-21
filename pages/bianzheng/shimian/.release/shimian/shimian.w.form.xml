@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cYJzeIn" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="cYJzeIn" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.typeItem.cYJzeIn{height: 20%; border-bottom: 8px solid rgb(240, 240, 240)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cYJzeIn" class="cYJzeIn"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar cYJzeIn" xid="shimian" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYJzeIn"> 
+    <div class="x-panel-top cYJzeIn" xid="shimianTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYJzeIn"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYJzeIn" style="background-color:#fe6b5b;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cYJzeIn"> 
+        <div class="x-titlebar-left cYJzeIn" __cid="cYJzeIn"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cYJzeIn" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cYJzeIn"> 
+            <i class="icon-chevron-left cYJzeIn" __cid="cYJzeIn"/>  
+            <span __cid="cYJzeIn" class="cYJzeIn"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cYJzeIn" __cid="cYJzeIn"> 
+          <img style="width:50px;" src="$model/UI2/jhApp/images/common/title.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+        </div>  
+        <div class="x-titlebar-right  cYJzeIn" __cid="cYJzeIn">
+          <div class="empty cYJzeIn" __cid="cYJzeIn"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cYJzeIn" xid="shimianContent" style="background-color:#f0f0f0;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYJzeIn"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p759b31445d3e4e638531e1170091ff05-iosstatusbar cYJzeIn" xid="shimianSolution" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYJzeIn"> 
+        <div class="x-panel-top cYJzeIn" xid="shimianSolutionTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:90}" __cid="cYJzeIn"> 
+          <table id="shimianTip" style="width:100%;height:80px;background-color:#fe6b5b;" __cid="cYJzeIn" class="cYJzeIn"> 
+            <tr style="height:20px;" __cid="cYJzeIn" class="cYJzeIn"> 
+              <td align="left" style="padding-left:10px;font-size:13px;color:white;" __cid="cYJzeIn" class="cYJzeIn">检测第一步,认真选择才有效呦！</td> 
+            </tr>  
+            <tr style="height:30px;" __cid="cYJzeIn" class="cYJzeIn"> 
+              <td align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:200px;" src="$model/UI2/jhApp/images/step/step1.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr>  
+            <tr style="height:40px;background-color:#f0f0f0;" __cid="cYJzeIn" class="cYJzeIn"> 
+              <td align="center" style="font-size:14px;color:#fe6b5b;" __cid="cYJzeIn" class="cYJzeIn">请根据情况选择您的所属类型</td> 
+            </tr> 
+          </table> 
+        </div>  
+        <div class="x-panel-content cYJzeIn" xid="shimianSolutionContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYJzeIn"> 
+          <table id="shimianType" style="width:100%;background-color:white;border-left:8px solid #f0f0f0;border-right:8px solid #f0f0f0;" __cid="cYJzeIn" class="cYJzeIn"> 
+            <tr class="typeItem cYJzeIn" bind-click="shimianType1Click" __cid="cYJzeIn"> 
+              <td style="width:80px;" align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:60px;height:60px;" src="$model/UI2/jhApp/images/shimiantype/byrs.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td>  
+              <td align="left" __cid="cYJzeIn" class="cYJzeIn"> 
+                <div style="float:left;width:100%;height:25px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                  <span style="float:left;font-size:15px;" __cid="cYJzeIn" class="cYJzeIn">难入睡</span>  
+                  <div class="progressDiv cYJzeIn" style="float:left;height:10px;margin-top:5px;margin-left:10px;width:120px;background-color:#f0f0f0;border-radius:5px;" __cid="cYJzeIn"> 
+                    <span id="progress1" style="float:left;width:30px;height:10px;background-color:#fe6b5b;border-radius:5px;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                  </div>  
+                  <span id="value1" style="float:right;margin-top:3px;font-size:13px; color:#999;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                </div>  
+                <div style="float:leftwidth:100%;font-size:12px;" __cid="cYJzeIn" class="cYJzeIn">总是在睡前浮想联翩,越想越精神,需要一个较长过程才能入睡.</div> 
+              </td>  
+              <td align="center" style="width:50px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:50px;" src="$model/UI2/jhApp/images/common/right.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr>  
+            <tr class="typeItem cYJzeIn" bind-click="shimianType2Click" __cid="cYJzeIn"> 
+              <td style="width:80px;" align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:60px;height:60px;" src="$model/UI2/jhApp/images/shimiantype/yx.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td>  
+              <td align="left" __cid="cYJzeIn" class="cYJzeIn"> 
+                <div style="float:left;width:100%;height:25px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                  <span style="float:left;font-size:15px;" __cid="cYJzeIn" class="cYJzeIn">容易醒</span>  
+                  <div class="progressDiv cYJzeIn" style="float:left;height:10px;margin-top:5px;margin-left:10px;width:120px;background-color:#f0f0f0;border-radius:5px;" __cid="cYJzeIn"> 
+                    <span id="progress2" style="float:left;width:30px;height:10px;background-color:#fe6b5b;border-radius:5px;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                  </div>  
+                  <span id="value2" style="float:right;margin-top:3px;font-size:13px; color:#999;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                </div>  
+                <div style="float:leftwidth:100%;font-size:12px;" __cid="cYJzeIn" class="cYJzeIn">容易莫名的惊醒或对房间的明暗、噪声敏感,容易醒来.</div> 
+              </td>  
+              <td align="center" style="width:50px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:50px;" src="$model/UI2/jhApp/images/common/right.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr>  
+            <tr class="typeItem cYJzeIn" bind-click="shimianType3Click" __cid="cYJzeIn"> 
+              <td style="width:80px;" align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:60px;height:60px;" src="$model/UI2/jhApp/images/shimiantype/dm.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td>  
+              <td align="left" __cid="cYJzeIn" class="cYJzeIn"> 
+                <div style="float:left;width:100%;height:25px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                  <span style="float:left;font-size:15px;" __cid="cYJzeIn" class="cYJzeIn">易做梦</span>  
+                  <div class="progressDiv cYJzeIn" style="float:left;height:10px;margin-top:5px;margin-left:10px;width:120px;background-color:#f0f0f0;border-radius:5px;" __cid="cYJzeIn"> 
+                    <span id="progress3" style="float:left;width:30px;height:10px;background-color:#fe6b5b;border-radius:5px;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                  </div>  
+                  <span id="value3" style="float:right;margin-top:3px;font-size:13px; color:#999;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                </div>  
+                <div style="float:leftwidth:100%;font-size:12px;" __cid="cYJzeIn" class="cYJzeIn">睡觉总是做梦,时感疲劳,导致睡眠质量下降,白天状态不佳.</div> 
+              </td>  
+              <td align="center" style="width:50px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:50px;" src="$model/UI2/jhApp/images/common/right.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr>  
+            <tr class="typeItem cYJzeIn" bind-click="shimianType14Click" __cid="cYJzeIn"> 
+              <td style="width:80px;" align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:60px;height:60px;" src="$model/UI2/jhApp/images/shimiantype/zx.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td>  
+              <td align="left" __cid="cYJzeIn" class="cYJzeIn"> 
+                <div style="float:left;width:100%;height:25px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                  <span style="float:left;font-size:15px;" __cid="cYJzeIn" class="cYJzeIn">醒得早</span>  
+                  <div class="progressDiv cYJzeIn" style="float:left;height:10px;margin-top:5px;margin-left:10px;width:120px;background-color:#f0f0f0;border-radius:5px;" __cid="cYJzeIn"> 
+                    <span id="progress4" style="float:left;width:30px;height:10px;background-color:#fe6b5b;border-radius:5px;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                  </div>  
+                  <span id="value4" style="float:right;margin-top:3px;font-size:13px; color:#999;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                </div>  
+                <div style="float:leftwidth:100%;font-size:12px;" __cid="cYJzeIn" class="cYJzeIn">醒的很早,并且醒来后很难入睡.</div> 
+              </td>  
+              <td align="center" style="width:50px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:50px;" src="$model/UI2/jhApp/images/common/right.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr>  
+            <tr class="typeItem cYJzeIn" bind-click="shimianType5Click" __cid="cYJzeIn"> 
+              <td style="width:80px;" align="center" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:60px;height:60px;" src="$model/UI2/jhApp/images/shimiantype/dzz.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td>  
+              <td align="left" __cid="cYJzeIn" class="cYJzeIn"> 
+                <div style="float:left;width:100%;height:25px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                  <span style="float:left;font-size:15px;" __cid="cYJzeIn" class="cYJzeIn">多症状</span>  
+                  <div class="progressDiv cYJzeIn" style="float:left;height:10px;margin-top:5px;margin-left:10px;width:120px;background-color:#f0f0f0;border-radius:5px;" __cid="cYJzeIn"> 
+                    <span id="progress5" style="float:left;width:30px;height:10px;background-color:#fe6b5b;border-radius:5px;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                  </div>  
+                  <span id="value5" style="float:right;margin-top:3px;font-size:13px; color:#999;" __cid="cYJzeIn" class="cYJzeIn"/> 
+                </div>  
+                <div style="float:leftwidth:100%;font-size:12px;" __cid="cYJzeIn" class="cYJzeIn">上述症状都有所涉及,内心焦虑,睡眠质量差.</div> 
+              </td>  
+              <td align="center" style="width:50px;" __cid="cYJzeIn" class="cYJzeIn"> 
+                <img style="width:50px;" src="$model/UI2/jhApp/images/common/right.png" __cid="cYJzeIn" class="cYJzeIn"/> 
+              </td> 
+            </tr> 
+          </table> 
+        </div>  
+        <style __cid="cYJzeIn" class="cYJzeIn">.x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-top {height: 90px;}.x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-content { top: 90px;bottom: nullpx;}.x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-top {height: 110px;}.iosstatusbar .x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-content { top: 110px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-top {height: 90px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p759b31445d3e4e638531e1170091ff05-iosstatusbar &gt;.x-panel-content {top: 90px;}</style>
+      </div> 
+    </div>  
+    <style __cid="cYJzeIn" class="cYJzeIn">.x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p38d321a2fd5248a888e2ac22ce190bc3-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
