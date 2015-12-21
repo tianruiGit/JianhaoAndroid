@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window ceQFZr2" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="ceQFZr2" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/button/button,">
-  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.menu-icon.ceQFZr2{width: 26px} #bianzhengGuanggao.ceQFZr2{float: left; height: 150px; width: 100%} #kinMaxShow.ceQFZr2{visibility: hidden; width: 100%; height: 150px; overflow: hidden; display: none} #bianzhengTable.ceQFZr2{float: left; width: 100%} .bzLeft.ceQFZr2{background-color: white; width: 50%; border-top: 10px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); border-right: 10px solid rgb(240, 240, 240); height: 25%; border-radius: 13px} .bzRight.ceQFZr2{background-color: white; width: 50%; border-top: 10px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); height: 25%; border-right: 10px solid rgb(240, 240, 240); border-radius: 3px} .bzIcon.ceQFZr2{float: left; width: 100%} .bzState.ceQFZr2{float: right; height: 50px; display: none} .bzCenter.ceQFZr2{width: 100%; height: 25%; background-color: white; border-top: 17px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); border-right: 10px solid rgb(240, 240, 240); border-bottom: 10px solid rgb(240, 240, 240); border-radius: 3px} .bzCenterTag.ceQFZr2{margin-top: -14px; width: 200px; height: 14px}</xhtml:style>  
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window ceQFZr2" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="ceQFZr2" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.menu-icon.ceQFZr2{width: 26px} #bianzhengGuanggao.ceQFZr2{float: left; height: 150px; width: 100%} #kinMaxShow.ceQFZr2{visibility: hidden; width: 100%; height: 150px; overflow: hidden; display: none} #bianzhengTable.ceQFZr2{float: left; width: 100%} .bzLeft.ceQFZr2{background-color: white; width: 50%; border-top: 10px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); border-right: 10px solid rgb(240, 240, 240); height: 25%; border-radius: 13px} .bzRight.ceQFZr2{background-color: white; width: 50%; border-top: 10px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); height: 25%; border-right: 10px solid rgb(240, 240, 240); border-radius: 3px} .bzIcon.ceQFZr2{float: left; width: 100%} .bzState.ceQFZr2{float: right; height: 50px; display: none} .bzCenter.ceQFZr2{width: 100%; height: 25%; background-color: white; border-top: 17px solid rgb(240, 240, 240); border-left: 10px solid rgb(240, 240, 240); border-right: 10px solid rgb(240, 240, 240); border-bottom: 10px solid rgb(240, 240, 240); border-radius: 3px} .bzCenterTag.ceQFZr2{margin-top: -14px; width: 200px; height: 14px} .x-titlebar.ceQFZr2{background-color: rgb(254, 107, 91)} .x-panel-content.ceQFZr2{background-color: rgb(240, 240, 240)} .user-head.ceQFZr2{width: 100%; height: 130px; background-color: green; margin-bottom: 10px} .user-info-line.ceQFZr2{width: 100%; height: 40px; border-bottom: 1px solid rgb(240, 240, 240); background-color: white} .user-info-icon.ceQFZr2{width: 50px} .user-info-icon.ceQFZr2 img.ceQFZr2{width: 20px} .user-info-tag.ceQFZr2{color: rgb(51, 51, 51); font-weight: "微软雅黑"; font-size: 14px} .user-info-content.ceQFZr2{color: rgb(240, 240, 240); font-size: 14px} .user-info-bottom.ceQFZr2{width: 100%; height: 100px} .user-info-btn.ceQFZr2{width: 80%; height: 50px; background-color: rgb(208, 208, 208); color: white; line-height: 50px; padding: 0px; font-size: 15px}</xhtml:style>  
   <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="ceQFZr2" class="ceQFZr2"/>  
-  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc4667fba37034861ad62382863bd2bd4-iosstatusbar ceQFZr2" xid="main" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ceQFZr2"> 
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pa24ca72f650347f788b055e4427ff80b-iosstatusbar ceQFZr2" xid="main" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ceQFZr2"> 
     <div class="x-panel-content ceQFZr2" xid="mainContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceQFZr2"> 
       <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full ceQFZr2" xid="contents" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;swipe&quot;:false}" __cid="ceQFZr2"> 
         <div class="x-contents-content active ceQFZr2" xid="bianzheng" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ceQFZr2"> 
@@ -72,7 +72,93 @@
         </div>  
         <div class="x-contents-content ceQFZr2" xid="zaowu" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ceQFZr2"/>  
         <div class="x-contents-content ceQFZr2" xid="faxian" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ceQFZr2"/>  
-        <div class="x-contents-content ceQFZr2" xid="me" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ceQFZr2"/> 
+        <div class="x-contents-content ceQFZr2" xid="me" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="ceQFZr2"> 
+          <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar ceQFZr2" xid="user" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ceQFZr2"> 
+            <div class="x-panel-top ceQFZr2" xid="userTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceQFZr2"> 
+              <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ceQFZr2" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我&quot;}" __cid="ceQFZr2"> 
+                <div class="x-titlebar-left ceQFZr2" __cid="ceQFZr2"/>  
+                <div class="x-titlebar-title ceQFZr2" __cid="ceQFZr2">我</div>  
+                <div class="x-titlebar-right  ceQFZr2" __cid="ceQFZr2">
+                  <div class="empty ceQFZr2" __cid="ceQFZr2"/>
+                </div> 
+              </div> 
+            </div>  
+            <div class="x-panel-content ceQFZr2" xid="userContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceQFZr2"> 
+              <div class="user-head ceQFZr2" __cid="ceQFZr2"/>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/name.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">姓名</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/login.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">账户登录</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/sex.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">性别</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/age.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">年龄</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/address.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">身高</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td class="user-info-icon ceQFZr2" align="center" __cid="ceQFZr2"> 
+                    <img src="$model/UI2/JianhaoAndroid/images/user/address.png" __cid="ceQFZr2" class="ceQFZr2"/> 
+                  </td>  
+                  <td class="user-info-tag ceQFZr2" align="left" __cid="ceQFZr2">城市</td>  
+                  <td class="user-info-content ceQFZr2" align="right" __cid="ceQFZr2"/>  
+                  <td class="user-info-right ceQFZr2" align="center" __cid="ceQFZr2"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-bottom ceQFZr2" __cid="ceQFZr2"> 
+                <tr __cid="ceQFZr2" class="ceQFZr2"> 
+                  <td align="center" __cid="ceQFZr2" class="ceQFZr2"> 
+                    <a component="$model/UI2/system/components/justep/button/button" class="btn user-info-btn ceQFZr2" xid="userExit" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;用户退出&quot;}" __cid="ceQFZr2"> 
+                      <i xid="i1" __cid="ceQFZr2" class="ceQFZr2"/>  
+                      <span xid="span1" __cid="ceQFZr2" class="ceQFZr2"/> 
+                    </a> 
+                  </td> 
+                </tr> 
+              </table> 
+            </div>  
+            <style __cid="ceQFZr2" class="ceQFZr2">.x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p5d117f6835ec49bf918d456c6bb800e8-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+          </div> 
+        </div> 
       </div> 
     </div>  
     <div class="x-panel-bottom ceQFZr2" xid="mainBottom" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceQFZr2"> 
@@ -91,6 +177,6 @@
         </a> 
       </div> 
     </div>  
-    <style __cid="ceQFZr2" class="ceQFZr2">.x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc4667fba37034861ad62382863bd2bd4-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+    <style __cid="ceQFZr2" class="ceQFZr2">.x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa24ca72f650347f788b055e4427ff80b-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
   </div> 
 </div>

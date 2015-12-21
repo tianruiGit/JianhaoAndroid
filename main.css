@@ -68,3 +68,49 @@
 	width: 200px;
 	height: 14px;
 }
+.x-titlebar{
+	background-color:#FE6B5B;
+}
+.x-panel-content{
+	background-color:#F0F0F0;
+}
+.user-head{
+	width:100%;
+	height:130px;
+	background-color:green;
+	margin-bottom:10px;
+}
+.user-info-line{
+	width:100%;
+	height:40px;
+	border-bottom:1px solid #f0f0f0;
+	background-color:white;
+}
+.user-info-icon{
+	width:50px;
+}
+.user-info-icon img{
+	width:20px;
+}
+.user-info-tag{
+	color:#333;
+	font-weight:"微软雅黑";
+	font-size:14px;
+}
+.user-info-content{
+	color:#f0f0f0;
+	font-size:14px;
+}
+.user-info-bottom{
+	width:100%;
+	height:100px;
+}
+.user-info-btn{
+	width:80%;
+	height:50px;
+	background-color:#d0d0d0;
+	color:white;
+	line-height:50px;
+	padding:0px;
+	font-size:15px;
+}

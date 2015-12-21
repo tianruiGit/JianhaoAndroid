@@ -87,7 +87,93 @@
         </div>  
         <div class="x-contents-content" xid="zaowu"/>  
         <div class="x-contents-content" xid="faxian"/>  
-        <div class="x-contents-content" xid="me"/> 
+        <div class="x-contents-content" xid="me"> 
+          <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
+            xid="user"> 
+            <div class="x-panel-top" xid="userTop"> 
+              <div component="$UI/system/components/justep/titleBar/titleBar"
+                title="我" class="x-titlebar"> 
+                <div class="x-titlebar-left"/>  
+                <div class="x-titlebar-title">我</div>  
+                <div class="x-titlebar-right reverse"/> 
+              </div> 
+            </div>  
+            <div class="x-panel-content" xid="userContent"> 
+              <div class="user-head"/>  
+              <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/name.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">姓名</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/login.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">账户登录</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/sex.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">性别</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/age.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">年龄</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table> 
+               <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/address.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">身高</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table> 
+              <table class="user-info-line"> 
+                <tr> 
+                  <td class="user-info-icon" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/address.png"/> 
+                  </td>  
+                  <td class="user-info-tag" align="left">城市</td>  
+                  <td class="user-info-content" align="right"/>  
+                  <td class="user-info-right" align="center"/> 
+                </tr> 
+              </table>  
+              <table class="user-info-bottom"> 
+                <tr> 
+                  <td align="center"> 
+                    <a component="$UI/system/components/justep/button/button"
+                      class="btn user-info-btn" label="用户退出" xid="userExit"> 
+                      <i xid="i1"/>  
+                      <span xid="span1"/> 
+                    </a> 
+                  </td> 
+                </tr> 
+              </table> 
+            </div> 
+          </div> 
+        </div> 
       </div> 
     </div>  
     <div class="x-panel-bottom" xid="mainBottom"> 

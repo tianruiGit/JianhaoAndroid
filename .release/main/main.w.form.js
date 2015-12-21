@@ -7,6 +7,7 @@ require('$model/UI2/system/components/justep/button/buttonGroup');
 require('$model/UI2/system/components/justep/model/model');
 require('$model/UI2/system/components/justep/window/window');
 require('$model/UI2/system/components/justep/contents/contents');
+require('$model/UI2/system/components/justep/titleBar/titleBar');
 require('$model/UI2/system/components/justep/button/button');
 var __parent1=require('$model/UI2/system/lib/base/modelBase'); 
 var __parent0=require('$model/UI2/JianhaoAndroid/main'); 

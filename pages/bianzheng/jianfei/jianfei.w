@@ -33,7 +33,7 @@
             </tr>  
             <tr style="height:30px;"> 
               <td align="center"> 
-                <img style="width:200px;" src="$UI/jhApp/images/step/step1.png"/> 
+                <img style="width:200px;" src="$UI/JianhaoAndroid/images/bianzheng/common/step1.png"/> 
               </td> 
             </tr>  
             <tr> 
@@ -45,7 +45,7 @@
           <table id="jianfeiType"> 
             <tr class="typeItem" bind-click="jianfeiType1Click"> 
               <td class="jianfeiTypeLeft" align="center"> 
-                <img class="jianfeiTypeIcon" src="$UI/jhApp/images/jianfeitype/bztx.png"/> 
+                <img class="jianfeiTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/jianfei/typeBztx.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -58,12 +58,12 @@
                 <div class="jianfeiTypeCenter2">体型较标准或微胖,要保持身形</div> 
               </td>  
               <td align="center" class="jianfeiTypeRight"> 
-                <img class="jianfeiTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="jianfeiTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="jianfeiType2Click"> 
               <td class="jianfeiTypeLeft" align="center"> 
-                <img class="jianfeiTypeIcon" src="$UI/jhApp/images/jianfeitype/qdfp.png"/> 
+                <img class="jianfeiTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/jianfei/typeQdfp.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -76,12 +76,12 @@
                 <div class="jianfeiTypeCenter2">轻度肥胖,脂肪分布较均匀</div> 
               </td>  
               <td align="center" class="jianfeiTypeRight"> 
-                <img class="jianfeiTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="jianfeiTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="jianfeiType3Click"> 
               <td class="jianfeiTypeLeft" align="center"> 
-                <img class="jianfeiTypeIcon" src="$UI/jhApp/images/jianfeitype/ssfp.png"/> 
+                <img class="jianfeiTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/jianfei/typeSsfp.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -94,12 +94,12 @@
                 <div class="jianfeiTypeCenter2">体型较胖,脂肪多分布在腹部和背部</div> 
               </td>  
               <td align="center" class="jianfeiTypeRight"> 
-                <img class="jianfeiTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="jianfeiTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem"> 
               <td class="jianfeiTypeLeft" align="center"> 
-                <img class="jianfeiTypeIcon" src="$UI/jhApp/images/jianfeitype/xsfp.png"/> 
+                <img class="jianfeiTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/jianfei/typeXsfp.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -112,12 +112,12 @@
                 <div class="jianfeiTypeCenter2">体型较胖,脂肪多分布在臀部和腿部</div> 
               </td>  
               <td align="center" class="jianfeiTypeRight"> 
-                <img class="jianfeiTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="jianfeiTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem"> 
               <td class="jianfeiTypeLeft" align="center"> 
-                <img class="jianfeiTypeIcon" src="$UI/jhApp/images/jianfeitype/qsfp.png"/> 
+                <img class="jianfeiTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/jianfei/typeQsfp.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -130,7 +130,7 @@
                 <div class="jianfeiTypeCenter2">上述症状都有所涉及,内心焦虑,睡眠质量差.</div> 
               </td>  
               <td align="center" class="jianfeiTypeRight"> 
-                <img class="jianfeiTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="jianfeiTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr> 
           </table> 

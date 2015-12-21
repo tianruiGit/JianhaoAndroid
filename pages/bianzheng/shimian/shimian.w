@@ -33,7 +33,7 @@
             </tr>  
             <tr style="height:30px;"> 
               <td align="center"> 
-                <img style="width:200px;" src="$UI/jhApp/images/step/step1.png"/> 
+                <img style="width:200px;" src="$UI/JianhaoAndroid/images/bianzheng/common/step1.png"/> 
               </td> 
             </tr>  
             <tr> 
@@ -45,7 +45,7 @@
           <table id="shimianType"> 
             <tr class="typeItem" bind-click="shimianType1Click"> 
               <td class="shimianTypeLeft" align="center"> 
-                <img class="shimianTypeIcon" src="$UI/jhApp/images/shimiantype/byrs.png"/> 
+                <img class="shimianTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/shimian/typeNrs.png"/> 
               </td>  
               <td align="left"> 
                 <div class="shimianTypeCenter1"> 
@@ -58,12 +58,12 @@
                 <div class="shimianTypeCenter2">总是在睡前浮想联翩,越想越精神,需要一个较长过程才能入睡.</div> 
               </td>  
               <td align="center" class="shimianTypeRight"> 
-                <img class="shimianTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="shimianTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="shimianType2Click"> 
               <td class="shimianTypeLeft" align="center"> 
-                <img class="shimianTypeIcon" src="$UI/jhApp/images/shimiantype/yx.png"/> 
+                <img class="shimianTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/shimian/typeRyx.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -76,12 +76,12 @@
                 <div class="shimianTypeCenter2">容易莫名的惊醒或对房间的明暗、噪声敏感,容易醒来.</div> 
               </td>  
               <td align="center" class="shimianTypeRight"> 
-                <img class="shimianTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="shimianTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="shimianType3Click"> 
               <td class="shimianTypeLeft" align="center"> 
-                <img class="shimianTypeIcon" src="$UI/jhApp/images/shimiantype/dm.png"/> 
+                <img class="shimianTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/shimian/typeYzm.png"/> 
               </td>  
               <td align="left"> 
                 <div class="jianfeiTypeCenter1"> 
@@ -94,12 +94,12 @@
                 <div class="shimianTypeCenter2">睡觉总是做梦,时感疲劳,导致睡眠质量下降,白天状态不佳.</div> 
               </td>  
               <td align="center" class="shimianTypeRight"> 
-                <img class="shimianTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="shimianTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="shimianType4Click"> 
               <td class="shimianTypeLeft" align="center"> 
-                <img class="shimianTypeIcon" src="$UI/jhApp/images/shimiantype/zx.png"/> 
+                <img class="shimianTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/shimian/typeXdz.png"/> 
               </td>  
               <td align="left"> 
                 <div class="shimianTypeCenter1"> 
@@ -112,12 +112,12 @@
                 <div class="shimianTypeCenter2">醒的很早,并且醒来后很难入睡.</div> 
               </td>  
               <td align="center" class="shimianTypeRight"> 
-                <img class="shimianTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="shimianTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr>  
             <tr class="typeItem" bind-click="shimianType5Click"> 
               <td class="shimianTypeLeft" align="center"> 
-                <img class="shimianTypeIcon" src="$UI/jhApp/images/shimiantype/dzz.png"/> 
+                <img class="shimianTypeIcon" src="$UI/JianhaoAndroid/images/bianzheng/shimian/typeDzz.png"/> 
               </td>  
               <td align="left"> 
                 <div class="shimianTypeCenter1"> 
@@ -130,7 +130,7 @@
                 <div class="shimianTypeCenter2">上述症状都有所涉及,内心焦虑,睡眠质量差.</div> 
               </td>  
               <td align="center" class="shimianTypeRight"> 
-                <img class="shimianTypeRight" src="$UI/jhApp/images/common/right.png"/> 
+                <img class="shimianTypeRight" src="$UI/JianhaoAndroid/images/bianzheng/common/right.png"/> 
               </td> 
             </tr> 
           </table> 

@@ -45,31 +45,31 @@ define(function(require) {
 	Model.prototype.jianfeiType1Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "1");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 	// 点击轻度肥胖
 	Model.prototype.jianfeiType2Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "2");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 	// 点击上身肥胖
 	Model.prototype.jianfeiType3Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "3");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 	// 点击下身肥胖
 	Model.prototype.jianfeiType4Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "4");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 	// 点击全身肥胖
 	Model.prototype.jianfeiType5Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "5");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 
 	return Model;

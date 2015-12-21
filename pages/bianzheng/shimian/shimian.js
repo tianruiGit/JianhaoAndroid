@@ -41,34 +41,35 @@ define(function(require) {
 			}
 		});
 	}
+	// 点击难入睡
 	Model.prototype.shimianType1Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "1");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
-
+	// 点击容易醒
 	Model.prototype.shimianType2Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "2");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
-
+	// 点击易做梦
 	Model.prototype.shimianType3Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "3");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
-
+	// 点击醒得早
 	Model.prototype.shimianType4Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "4");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
-
+	// 点击多症状
 	Model.prototype.shimianType5Click = function(event) {
 		var checks = this.getParent().comp("checkTemp");
 		checks.setValue("fFeatureId", "5");
-		justep.Portal.openWindow(require.toUrl("$UI/jhApp/pages/paizhao/paizhao.w"));
+		justep.Portal.openWindow(require.toUrl("$UI/JianhaoAndroid/pages/bianzheng/paizhao/paizhao.w"));
 	}
 
 	return Model;
