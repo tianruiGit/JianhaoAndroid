@@ -5,22 +5,6 @@
   <div component="$UI/system/components/justep/model/model" xid="model" onLoad="modelLoad"
     style="height:auto;left:275px;top:25px;"> 
     <div component="$UI/system/components/justep/data/data" autoLoad="true"
-      xid="userData" idColumn="fUserId" onCustomRefresh="userDataCustomRefresh"> 
-      <column label="用户ID" name="fUserId" type="String" xid="xid1"/>  
-      <column label="用户手机" name="fPhone" type="String" xid="xid3"/>  
-      <column label="用户昵称" name="fName" type="String" xid="xid2"/>  
-      <column label="用户密码" name="fPassword" type="String" xid="xid4"/>  
-      <column label="用户类型" name="fType" type="String" xid="xid5"/>  
-      <column label="用户年龄" name="fAge" type="Integer" xid="xid6"/>  
-      <column label="用户性别" name="fSex" type="String" xid="xid7"/>  
-      <column label="用户所在国家" name="fCountry" type="String" xid="xid8"/>  
-      <column label="用户所在省份" name="fProvince" type="String" xid="xid9"/>  
-      <column label="用户所在城市" name="fCity" type="String" xid="xid10"/>  
-      <column label="用户头像" name="fHead" type="String" xid="xid11"/>  
-      <column label="用户创建时间" name="fCreateTime" type="DateTime" xid="xid12"/>  
-      <data xid="default1">[]</data>
-    </div>  
-    <div component="$UI/system/components/justep/data/data" autoLoad="true"
       xid="checkData" idColumn="fID" isTree="false" onCustomRefresh="checkDataCustomRefresh">
       <column label="检测ID" name="fID" type="String" xid="xid13"/>  
       <column label="所属用户" name="fBelongUserId" type="String" xid="xid14"/>  

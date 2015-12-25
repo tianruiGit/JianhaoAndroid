@@ -1,12 +1,9 @@
 define(function(require) {
-	var $ = require("jquery"), 
-	FastClick = require("$UI/system/components/justep/lib/fastclick"),
-	WindowContainer = require("$UI/system/components/justep/windowContainer/windowContainer");
-	justep = require("$UI/system/lib/justep"),
-	require("$UI/system/lib/cordova/cordova");
+	var $ = require("jquery"), FastClick = require("$UI/system/components/justep/lib/fastclick"), WindowContainer = require("$UI/system/components/justep/windowContainer/windowContainer");
+	justep = require("$UI/system/lib/justep"), require("$UI/system/lib/cordova/cordova");
 	require('$UI/system/lib/jquery/transition');
 	var baas = require("$UI/jhApp/baas");
-	
+
 	// 为了compose后postMessage到这里终止
 	window.isPortalWindow = true;
 
@@ -16,92 +13,100 @@ define(function(require) {
 		process : "/portal/process/message/messageProcess",
 		activity : "mainActivity"
 	}, mainPageId = 'main';
-	
-	// 个人信息页面配置
+
+	// 初始信息页面配置
 	var personPage = {
-		url : './pages/user/setInfo.w',
+		url : './pages/user/initInfo.w',
 		process : "/portal/process/message/messageProcess",
 		activity : "mainActivity"
 	}, personPageId = 'main';
 
+	// 登陆页面配置
+	var loginPage = {
+		url : './pages/user/login.w',
+		process : "/portal/process/message/messageProcess",
+		activity : "mainActivity"
+	}, loginPageId = 'main';
+
 	var Model = function() {
 		this.init();
 		this.callParent();
-		//this._userID = localStorage.getItem("UserId");
-		this._userID = "C6DE4E4D794000018AAC30601E009980";
+		this._userID = "15948612408"//localStorage.getItem("UserId");
+		this._userStatus = "0"//localStorage.getItem("UserStatus");
 	};
-	
+
 	Model.prototype = {
 		// 返回一个.w url
 		getURL : function(url, args) {
-		if(!url) return;
-			if(typeof url !== 'string'){
-				args = url;//TODO clone;
+			if (!url)
+				return;
+			if (typeof url !== 'string') {
+				args = url;// TODO clone;
 				url = args.url;
 				delete args.url;
 			}
 			args = args || {};
-			if(url && url.indexOf("http")!==0){
+			if (url && url.indexOf("http") !== 0) {
 				var params = [];
-				for(var key in args){
-					if(args.hasOwnProperty(key))
+				for ( var key in args) {
+					if (args.hasOwnProperty(key))
 						params.push(key + '=' + (args[key] || ''));
 				}
 				params = params.join('&');
-				url = url + (url.indexOf('?') == -1?'?':'&') + params;
+				url = url + (url.indexOf('?') == -1 ? '?' : '&') + params;
 				url = require.toUrl(url);
-            }
-            return url;
+			}
+			return url;
 		},
 		init : function() {
 			// 初始化接受postMessage消息
 			var me = this;
-			$(window).on('message',function(message){
+			$(window).on('message', function(message) {
 				var data = message.originalEvent.data;
-				try{/*这里是为了兼容IE9*/
+				try {/* 这里是为了兼容IE9 */
 					data = JSON.parse(data);
-				}catch(e){}	
-				if(data.type == "portal" && data.event){
+				} catch (e) {
+				}
+				if (data.type == "portal" && data.event) {
 					var name = data.event.name;
-					if(typeof me[name] == 'function')
-							me[name].apply(me, data.event.args);
+					if (typeof me[name] == 'function')
+						me[name].apply(me, data.event.args);
 				}
 			});
 		},
-		openPage: function(path, options,fn){
-			if(typeof options == 'function'){
+		openPage : function(path, options, fn) {
+			if (typeof options == 'function') {
 				fn = options;
 				options = {};
 			}
-			if(typeof path == 'object'){
+			if (typeof path == 'object') {
 				path = path.url;
 			}
 			var me = this;
 			options = options || {};
-			var pages = this.comp('pages'),
-				url = this.getURL(path, options),
-				pid = path;
-			if(!pages.has(pid)){
-				this.loadPage(pid,url,function(err){
-					if (err){
-						setTimeout(function(){
-							//hcr 特殊点, 必须知道错误对话框的btn
-							$("#__justepErrorDialog__").find(".x-error-close").one("click", function(){
-								setTimeout(function(){
-									//以下逻辑应该和closePage类似, maduo支持closePage传pid后, 直接调用即可
+			var pages = this.comp('pages'), url = this.getURL(path, options), pid = path;
+			if (!pages.has(pid)) {
+				this.loadPage(pid, url, function(err) {
+					if (err) {
+						setTimeout(function() {
+							// hcr 特殊点, 必须知道错误对话框的btn
+							$("#__justepErrorDialog__").find(".x-error-close").one("click", function() {
+								setTimeout(function() {
+									// 以下逻辑应该和closePage类似,
+									// maduo支持closePage传pid后, 直接调用即可
 									var index = me.openeds.indexOf(pid);
-									if (index !== -1){
+									if (index !== -1) {
 										me.openeds.splice(index, 1);
 									}
 									if (pages.getContent(pid))
 										pages.getContent(pid).dispose();
 								});
-							}); 
+							});
 						});
 					}
-					
+
 				});
-				
+
 				function after() {
 					pages.to(pid);
 					me.openeds.push(pid);
@@ -109,33 +114,35 @@ define(function(require) {
 					me.current.path = path;
 				}
 				setTimeout(after, 200);
-			}else{
+			} else {
 				fn && fn();
-			}	
+			}
 		},
-		loadPage: function(xid,url,fn){
+		loadPage : function(xid, url, fn) {
 			var pages = this.comp('pages');
 			var content = pages.getContent(xid);
-			if(!content){
-				content = pages.add({xid: xid});
+			if (!content) {
+				content = pages.add({
+					xid : xid
+				});
 			}
 			var parentNode = content.$domNode.get(0);
 			var compose = new WindowContainer({
-				parentNode: parentNode,
-				src: url,
-				onLoad: function(){
+				parentNode : parentNode,
+				src : url,
+				onLoad : function() {
 					fn && fn();
-					content.on("onActive", function(){
-						if(compose.getInnerModel()){
+					content.on("onActive", function() {
+						if (compose.getInnerModel()) {
 							compose.getInnerModel().fireEvent('onActive');
 						}
 					});
 				},
-				onLoadError: function(err){
+				onLoadError : function(err) {
 					fn && fn(err);
 				}
 			});
-			content.innerContainer = compose; 
+			content.innerContainer = compose;
 		},
 		closePage : function() {
 			var pages = this.comp('pages');
@@ -152,21 +159,27 @@ define(function(require) {
 
 	Model.prototype.modelLoad = function(event) {
 		var pages = this.comp('pages'), portal = this.comp('portal');
-		//localStorage.clear();
-		 
-		if(this._userID == null){
+		// localStorage.clear();
+
+		if (this._userID == null) {
 			// 加载个人信息设置页面
 			this.loadPage(personPageId, this.getURL(personPage));
 			// open stack
 			this.openeds = [ personPageId ];
+		} else {
+			if (this._userStatus == "0" || this._userStatus == "2") {// 未注册 或已登陆
+				// 加载主页面
+				this.loadPage(mainPageId, this.getURL(mainPage));
+				// open stack
+				this.openeds = [ mainPageId ];
+			} else if (this._userStatus == "1") {// 未登录
+				// 加载登陆页面
+				this.loadPage(loginPageId, this.getURL(loginPage));
+				// open stack
+				this.openeds = [ loginPageId ];
+			}
+
 		}
-		else{
-			// 加载主页面
-			this.loadPage(mainPageId, this.getURL(mainPage));
-			// open stack
-			this.openeds = [ mainPageId ];
-		}
-		
 
 		// 初始当前页
 		var current = getParameter('current');
@@ -177,25 +190,7 @@ define(function(require) {
 		}
 	};
 
-	Model.prototype.userDataCustomRefresh = function(event){
-		var data = event.source;
-		var params = {
-			"columns" : baas.getDataColumns(data),
-			"id" : this._userID
-		};
-		var success = function(resultData) {
-			var append = event.options && event.options.append;
-			data.loadData(resultData, append);
-		};
-		baas.sendRequest({
-			"url" : "/jhapi",
-			"action" : "queryUser",
-			"params" : params,
-			"success" : success
-		});
-	};
-
-	Model.prototype.checkDataCustomRefresh = function(event){
+	Model.prototype.checkDataCustomRefresh = function(event) {
 		var data = event.source;
 		var params = {
 			"columns" : baas.getDataColumns(data),
@@ -229,7 +224,7 @@ define(function(require) {
 		}
 
 		var items = search.split("&");
-		for ( var i = 0; i < items.length; i++) {
+		for (var i = 0; i < items.length; i++) {
 			var item = items[i];
 			var index = item.indexOf("=");
 			if (item && (index != -1)) {
@@ -239,7 +234,7 @@ define(function(require) {
 				else {
 					key = key.split('.');
 					var obj = params[key[0]] = params[key[0]] || {};
-					for ( var j = 1; j < key.length - 1; j++) {
+					for (var j = 1; j < key.length - 1; j++) {
 						obj = obj[key[j]] || {};
 					}
 					obj[key.pop()] = value;

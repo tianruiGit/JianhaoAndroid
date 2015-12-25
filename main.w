@@ -2,7 +2,28 @@
 
 <div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window" component="$UI/system/components/justep/window/window"
   design="device:m;">  
-  <div component="$UI/system/components/justep/model/model" xid="model" onLoad="modelLoad"/>  
+  <div component="$UI/system/components/justep/model/model" xid="model" onLoad="modelLoad"> 
+    <div component="$UI/system/components/justep/data/data" autoLoad="true"
+      xid="userData" idColumn="fUserId" onCustomRefresh="userDataCustomRefresh" confirmRefresh="true"
+      confirmDelete="true"> 
+      <column label="用户ID" name="fUserId" type="String" xid="xid1"/>  
+      <column label="用户手机" name="fPhone" type="String" xid="xid3"/>  
+      <column label="用户昵称" name="fName" type="String" xid="xid2"/>  
+      <column label="用户密码" name="fPassword" type="String" xid="xid4"/>  
+      <column label="用户类型" name="fType" type="String" xid="xid5"/>  
+      <column label="用户年龄" name="fAge" type="Integer" xid="xid6"/>  
+      <column label="用户性别" name="fSex" type="String" xid="xid7"/>  
+      <column label="用户身高" name="fHeight" type="String" xid="xid13"/>  
+      <column label="用户所在国家" name="fCountry" type="String" xid="xid8"/>  
+      <column label="用户所在省份" name="fProvince" type="String" xid="xid9"/>  
+      <column label="用户所在城市" name="fCity" type="String" xid="xid10"/>  
+      <column label="用户头像" name="fHead" type="String" xid="xid11"/>  
+      <column label="用户创建时间" name="fCreateTime" type="DateTime" xid="xid12"/>  
+      <master data="userData" xid="default1"/> 
+    </div> 
+  </div>  
+  <span component="$UI/system/components/justep/windowDialog/windowDialog" xid="wdHead"
+    src="$UI/JianhaoAndroid/pages/user/head.w" showTitle="false" width="100%" height="100%" onReceive="wdHeadReceive"/>
   <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
     xid="main"> 
     <div class="x-panel-content" xid="mainContent"> 
@@ -22,71 +43,13 @@
                 </a> 
               </div> 
             </div> 
-          </div>  
-          <table id="bianzhengTable"> 
-            <tr> 
-              <td id="bzShimian" class="bzLeft" align="left"> 
-                <img id="bzShimianImage" bind-click="shimianClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/shimian/icon.png"/>  
-                <img id="bzShimianState" bind-click="shimianSolutionClick"
-                  class="bzState" src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td>  
-              <td id="bzQudou" class="bzRight" align="left"> 
-                <img id="bzQudouImage" bind-click="qudouClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/qudou/icon.png"/>  
-                <img id="bzQudouState" bind-click="qudouSolutionClick" class="bzState"
-                  src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td> 
-            </tr>  
-            <tr> 
-              <td id="bzHeitou" class="bzLeft" align="left"> 
-                <img id="bzHeitouImage" bind-click="heitouClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/heitou/icon.png"/>  
-                <img id="bzHeitouState" bind-click="heitouSolutionClick" class="bzState"
-                  src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td>  
-              <td id="bzJianfei" class="bzRight" align="left"> 
-                <img id="bzJianfeiImage" bind-click="jianfeiClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/jianfei/icon.png"/>  
-                <img id="bzJianfeiState" bind-click="jianfeiSolutionClick"
-                  class="bzState" src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td> 
-            </tr>  
-            <tr> 
-              <td id="bzBianmi" class="bzLeft" align="left"> 
-                <img id="bzBianmiImage" bind-click="bianmiClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/bianmi/icon.png"/>  
-                <img id="bzBianmiState" bind-click="bianmiSolutionClick" class="bzState"
-                  src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td>  
-              <td id="bzKouchou" class="bzRight" align="left"> 
-                <img id="bzKouchouImage" bind-click="kouchouClick" class="bzIcon"
-                  src="$UI/JianhaoAndroid/images/bianzheng/kouchou/icon.png"/>  
-                <img id="bzKouchouState" bind-click="kouchouSolutionClick"
-                  class="bzState" src="$UI/JianhaoAndroid/images/bianzheng/common/jiaobiao.png"/> 
-              </td> 
-            </tr>  
-            <tr> 
-              <td colspan="2" class="bzCenter" align="center"> 
-                <img class="bzCenterTag" src="$UI/JianhaoAndroid/images/bianzheng/common/banyuan.png"/>  
-                <table id="bzCenterTable" style="width:100%;height:100%;"> 
-                  <tr> 
-                    <td style="width:50px;"/>  
-                    <td valign="top" align="center"> 
-                      <img bind-click="huanjieClick" style="width:70%;" src="$UI/JianhaoAndroid/images/bianzheng/huanjie/icon.png"/> 
-                    </td>  
-                    <td style="float:right;width:50px;margin-top:0px;" valign="top"> 
-                      <img bind-click="huanjieSolutionClick" id="bzHuanjieIcon"
-                        class="bzState" src="$UI/jhApp/images/bianzheng/jiaobiao.png"/> 
-                    </td> 
-                  </tr> 
-                </table> 
-              </td> 
-            </tr> 
-          </table> 
+          </div> 
         </div>  
         <div class="x-contents-content" xid="zaowu"/>  
-        <div class="x-contents-content" xid="faxian"/>  
+        <div class="x-contents-content" xid="faxian"> 
+          <div component="$UI/system/components/justep/windowContainer/windowContainer"
+            class="x-window-container" xid="windowContainer2"/> 
+        </div>  
         <div class="x-contents-content" xid="me"> 
           <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"
             xid="user"> 
@@ -99,65 +62,108 @@
               </div> 
             </div>  
             <div class="x-panel-content" xid="userContent"> 
-              <div class="user-head"/>  
-              <table class="user-info-line"> 
+              <table class="user-head"> 
                 <tr> 
+                  <td align="center"> 
+                    <img bind-attr-src=" $model.userData.val(&quot;fHead&quot;)" bind-click="uploadHeadClick"
+                      class="user-head-img"/> 
+                  </td> 
+                </tr> 
+              </table>  
+              <table class="user-info-line"> 
+                <tr bind-click="updateNameClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/name.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">姓名</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userName" bind-value="$model.userData.val('fName') "
+                      style="background-color:transparent;" disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
               </table>  
               <table class="user-info-line"> 
-                <tr> 
+                <tr bind-click="userLoginClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/login.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">账户登录</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userPhone" style="background-color:transparent;"
+                      disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
               </table>  
               <table class="user-info-line"> 
-                <tr> 
+                <tr bind-click="updateSexClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/sex.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">性别</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userSex" bind-value=" ( $model.userData.val(&quot;fSex&quot;)   == '1') ? '男':'女'"
+                      style="background-color:transparent;" disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
               </table>  
               <table class="user-info-line"> 
-                <tr> 
+                <tr bind-click="updateAgeClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/age.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">年龄</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userAge" bind-value="$model.userData.val('fAge') + '岁'"
+                      style="background-color:transparent;" disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
-              </table> 
-               <table class="user-info-line"> 
-                <tr> 
+              </table>  
+              <table class="user-info-line"> 
+                <tr bind-click="updateHeightClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/address.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">身高</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userHeight" bind-value="$model.userData.val('fHeight') + 'cm'"
+                      style="background-color:transparent;" disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
-              </table> 
+              </table>  
               <table class="user-info-line"> 
-                <tr> 
+                <tr bind-click="updateCityClick"> 
                   <td class="user-info-icon" align="center"> 
                     <img src="$UI/JianhaoAndroid/images/user/address.png"/> 
                   </td>  
                   <td class="user-info-tag" align="left">城市</td>  
-                  <td class="user-info-content" align="right"/>  
-                  <td class="user-info-right" align="center"/> 
+                  <td class="user-info-content" align="right"> 
+                    <input component="$UI/system/components/justep/input/input"
+                      class="form-control user-value" xid="userCity" bind-ref="userData.ref('fCity')"
+                      style="background-color:transparent;" disabled="true" readonly="true"/> 
+                  </td>  
+                  <td class="user-info-right" align="center"> 
+                    <img src="$UI/JianhaoAndroid/images/user/right.png"/> 
+                  </td> 
                 </tr> 
               </table>  
               <table class="user-info-bottom"> 

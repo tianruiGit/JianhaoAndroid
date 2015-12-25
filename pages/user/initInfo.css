@@ -1,0 +1,54 @@
+.x-panel-content{
+	background-color:#F0F0F0;
+	padding-top:40px;
+}
+.initInfoLable{
+	width:100%;
+	height:30px;
+	text-align:center;
+	lien-height:30px;
+	color:#FE6B5B;
+}
+.initInfoInput{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:20px;
+	height:70px;
+	border:1px solid #d0d0d0;
+	outline:0px;
+	background-color:white;
+	text-align:center;
+	font-size:15px;
+}
+.initInfoLine{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:20px;
+}
+.initInfoTable{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:20px;
+}
+.initInfoTableTd{
+	width:50%;
+}
+.initInfoTableTd img{
+	width:80px;
+}
+.initInfoTableTd span{
+	color:#999;
+}
+.initInfoButton{
+	width:90%;
+	height:40px;
+	background-color:#FE6B5B;
+	border:1px solid #FE6B5B;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:20px;
+	margin-bottom:10px;
+}

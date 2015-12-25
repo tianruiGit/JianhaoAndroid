@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window c6nMNj2" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="c6nMNj2" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-panel-content.c6nMNj2{background-color: rgb(240, 240, 240); padding-top: 40px} .initInfoLable.c6nMNj2{width: 100%; height: 30px; text-align: center; lien-height: 30px; color: rgb(254, 107, 91)} .initInfoInput.c6nMNj2{width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 20px; height: 70px; border: 1px solid rgb(208, 208, 208); outline: 0px; background-color: white; text-align: center; font-size: 15px} .initInfoLine.c6nMNj2{width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 20px} .initInfoTable.c6nMNj2{width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 20px} .initInfoTableTd.c6nMNj2{width: 50%} .initInfoTableTd.c6nMNj2 img.c6nMNj2{width: 80px} .initInfoTableTd.c6nMNj2 span.c6nMNj2{color: rgb(153, 153, 153)} .initInfoButton.c6nMNj2{width: 90%; height: 40px; background-color: rgb(254, 107, 91); border: 1px solid rgb(254, 107, 91); margin-left: 5%; margin-right: 5%; margin-top: 20px; margin-bottom: 10px}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c6nMNj2" class="c6nMNj2"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar c6nMNj2" xid="initInfo" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="c6nMNj2"> 
+    <div class="x-panel-content c6nMNj2" xid="initInfoContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="c6nMNj2"> 
+      <label class="initInfoLable c6nMNj2" __cid="c6nMNj2">请填写您的基本信息</label>  
+      <input class="initInfoInput c6nMNj2" placeholder="你的昵称" type="text" xid="nickName" __cid="c6nMNj2"/>  
+      <input class="initInfoInput c6nMNj2" placeholder="你的年龄" type="text" xid="age" __cid="c6nMNj2"/>  
+      <input class="initInfoInput c6nMNj2" placeholder="你的身高" type="text" xid="height" __cid="c6nMNj2"/>  
+      <img class="initInfoLine c6nMNj2" src="@justepContextPath@/v_aee14a1d36e841efa3d15ba712c60941l_zh_CNs_d_m/JianhaoAndroid/images/user/line.png" __cid="c6nMNj2"/>  
+      <table class="initInfoTable c6nMNj2" __cid="c6nMNj2"> 
+        <tr __cid="c6nMNj2" class="c6nMNj2"> 
+          <td class="initInfoTableTd c6nMNj2" align="center" __cid="c6nMNj2"> 
+            <img xid="boyImage" src="@justepContextPath@/v_4da98b39f2e142a0aacbf5774a91ff89l_zh_CNs_d_m/JianhaoAndroid/images/user/sexboy2.png" __cid="c6nMNj2" class="c6nMNj2" data-bind="event:{click:$model._callModelFn.bind($model, 'boyImageClick')}"/> 
+          </td>  
+          <td class="initInfoTableTd c6nMNj2" align="center" __cid="c6nMNj2"> 
+            <img xid="girlImage" src="@justepContextPath@/v_26dcaba44b6042e5a5de1a1bb4fb4569l_zh_CNs_d_m/JianhaoAndroid/images/user/sexgirl2.png" __cid="c6nMNj2" class="c6nMNj2" data-bind="event:{click:$model._callModelFn.bind($model, 'girlImageClick')}"/> 
+          </td> 
+        </tr>  
+        <tr __cid="c6nMNj2" class="c6nMNj2"> 
+          <td class="initInfoTableTd c6nMNj2" align="center" __cid="c6nMNj2"> 
+            <span xid="boyName" __cid="c6nMNj2" class="c6nMNj2">男</span> 
+          </td>  
+          <td class="initInfoTableTd c6nMNj2" align="center" __cid="c6nMNj2"> 
+            <span xid="girlName" __cid="c6nMNj2" class="c6nMNj2">女</span> 
+          </td> 
+        </tr> 
+      </table>  
+      <a component="$model/UI2/system/components/justep/button/button" style="height:40px;" class="btn btn-default initInfoButton c6nMNj2" xid="initInfoSure" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:initInfoSureClick" data-config="{&quot;label&quot;:&quot;确认&quot;}" __cid="c6nMNj2"> 
+        <i xid="i1" __cid="c6nMNj2" class="c6nMNj2"/>  
+        <span xid="span1" __cid="c6nMNj2" class="c6nMNj2"/> 
+      </a> 
+    </div>  
+    <style __cid="c6nMNj2" class="c6nMNj2">.x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p7f0fee39a1a4459e8f9395b8149edbe4-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+  </div> 
+</div>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window ceaU7fe" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __justepbasexid__="__baseID__" __cid="ceaU7fe" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.ceaU7fe{background-color: rgb(254, 107, 91)} .x-panel-content.ceaU7fe{background-color: rgb(240, 240, 240)} .container.ceaU7fe{width: 100%; margin: 0px auto 0 auto; position: relative; font-family: 微软雅黑; font-size: 12px} .container.ceaU7fe p.ceaU7fe{line-height: 12px; line-height: 0px; height: 0px; margin: 10px; color: rgb(187, 187, 187)} .action.ceaU7fe{width: 300px; height: 30px; margin: 10px 0} .cropped.ceaU7fe{position: absolute; right: -230px; top: 0; width: 200px; border: 1px rgb(221, 221, 221) solid; height: 460px; padding: 4px; box-shadow: 0px 0px 12px rgb(221, 221, 221); text-align: center} .imageBox.ceaU7fe{position: relative; height: 300px; width: 300px; border: 1px solid rgb(170, 170, 170); background: rgb(255, 255, 255); overflow: hidden; background-repeat: no-repeat; cursor: move; box-shadow: 4px 4px 12px rgb(176, 176, 176)} .imageBox.ceaU7fe .thumbBox.ceaU7fe{position: absolute; top: 50%; left: 50%; width: 200px; height: 200px; margin-top: -100px; border-radius: 200px; margin-left: -100px; box-sizing: border-box; border: 1px solid rgb(102, 102, 102); box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5); background: none repeat scroll 0% 0% transparent} .imageBox.ceaU7fe .spinner.ceaU7fe{position: absolute; top: 0; left: 0; bottom: 0; right: 0; text-align: center; line-height: 400px; color: rgb(47, 42, 42); background: rgba(213, 211, 211, 0.7)} .Btnsty_peyton.ceaU7fe{float: right; width: 66px; display: inline-block; margin-bottom: 10px; height: 57px; line-height: 57px; font-size: 20px; color: rgb(255, 255, 255); margin: 0px 2px; background-color: rgb(243, 142, 129); border-radius: 3px; text-decoration: none; cursor: pointer; box-shadow: 0px 0px 5px rgb(176, 176, 176); border: 0px rgb(255, 255, 255) solid} .new-contentarea.ceaU7fe{width: 165px; overflow: hidden; margin: 0 auto; position: relative; float: left} .new-contentarea.ceaU7fe label.ceaU7fe{width: 100%; height: 100%; display: block} .new-contentarea.ceaU7fe input[type="file"].ceaU7fe{width: 90px; height: 60px; background: rgb(51, 51, 51); margin: 0 auto; position: absolute; right: 50%; margin-right: -94px; top: 0; right: 0px\9; margin-right: 0px\9; width: 10px\9; opacity: 0; filter: alpha(opacity = 0); z-index: 2} a.upload-img.ceaU7fe{width: 90px; display: inline-block; float: left; margin-bottom: 10px; height: 57px; line-height: 57px; font-size: 20px; color: rgb(255, 255, 255); background-color: rgb(243, 142, 129); border-radius: 3px; text-decoration: none; cursor: pointer; border: 0px rgb(255, 255, 255) solid; box-shadow: 0px 0px 5px rgb(176, 176, 176)} a.upload-img.ceaU7fe:hover{background-color: rgb(236, 126, 112)} .tc.ceaU7fe{text-align: center}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="ceaU7fe" class="ceaU7fe"></div>  
+  <span component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="wrHead" style="left:6px;top:62px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" data-events="onReceive:wrHeadReceive" __cid="ceaU7fe" class="ceaU7fe"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar ceaU7fe" xid="head" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ceaU7fe"> 
+    <div class="x-panel-top ceaU7fe" xid="headTop" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceaU7fe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ceaU7fe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;设置头像&quot;}" __cid="ceaU7fe"> 
+        <div class="x-titlebar-left ceaU7fe" __cid="ceaU7fe"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ceaU7fe" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="ceaU7fe"> 
+            <i class="icon-chevron-left ceaU7fe" __cid="ceaU7fe"/>  
+            <span __cid="ceaU7fe" class="ceaU7fe"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title ceaU7fe" __cid="ceaU7fe">设置头像</div>  
+        <div class="x-titlebar-right  ceaU7fe" __cid="ceaU7fe">
+          <div class="empty ceaU7fe" __cid="ceaU7fe"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content ceaU7fe" xid="headContent" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ceaU7fe"> 
+      <div class="container ceaU7fe" __cid="ceaU7fe"> 
+        <center __cid="ceaU7fe" class="ceaU7fe"> 
+          <div id="imagebox" class="imageBox ceaU7fe" style="margin-top:10px;" __cid="ceaU7fe"> 
+            <div class="thumbBox ceaU7fe" __cid="ceaU7fe"/>  
+            <div class="spinner ceaU7fe" style="display: none" __cid="ceaU7fe"/> 
+          </div>  
+          <div class="action ceaU7fe" __cid="ceaU7fe"> 
+            <div class="new-contentarea tc ceaU7fe" style="width:160px;" __cid="ceaU7fe"> 
+              <a href="javascript:void(0)" class="upload-img ceaU7fe" __cid="ceaU7fe"> 
+                <label for="upload-file" __cid="ceaU7fe" class="ceaU7fe">选择图片</label> 
+              </a>  
+              <input type="file" class=" ceaU7fe" name="upload-file" id="upload-file" __cid="ceaU7fe"/> 
+            </div>  
+            <input id="btnCrop" type="button" class="Btnsty_peyton ceaU7fe" value="OK" __cid="ceaU7fe"/>  
+            <div style="float:right;width:25px;margin-right:15px;" __cid="ceaU7fe" class="ceaU7fe"> 
+              <input type="button" style="width:25px;height:25px;line-height:25px;" id="btnZoomIn" class="Btnsty_peyton ceaU7fe" value="+" __cid="ceaU7fe"/>  
+              <input type="button" style="width:25px;height:25px;line-height:25px;margin-top:7px;" id="btnZoomOut" class="Btnsty_peyton ceaU7fe" value="-" __cid="ceaU7fe"/> 
+            </div> 
+          </div> 
+        </center> 
+      </div> 
+    </div>  
+    <style __cid="ceaU7fe" class="ceaU7fe">.x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p3d66b2533fc2487f9ee3d2a182ca6193-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div> 
+</div>
